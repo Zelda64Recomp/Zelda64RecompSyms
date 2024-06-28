@@ -1,0 +1,52 @@
+# Manually curated static symbols that don't show up in the ELF.
+[[section]]
+name = "..code"
+rom = 0x00B3C000
+vram = 0x800A5AC0
+size = 0x13E4E0
+
+symbols = [
+    { name = "sSceneEntranceTable", vram = 0x801C5720 },
+]
+
+[[section]]
+name = "..ovl_En_Horse"
+rom = 0x00CF5950
+vram = 0x8087B730
+size = 0xEB10
+
+symbols = [
+    { name = "D_808890F0", vram = 0x808890F0 },
+    { name = "D_8088911C", vram = 0x8088911C },
+]
+
+[[section]]
+name = "..ovl_Object_Kankyo"
+rom = 0x00D56050
+vram = 0x808DBE80
+size = 0x2730
+
+symbols = [
+    { name = "D_808DE5B0", vram = 0x808DE5B0 },
+]
+
+[[section]]
+name = "..ovl_Boss_04"
+rom = 0x00E57260
+vram = 0x809EC040
+size = 0x2490
+
+symbols = [
+    { name = "D_809EE4D0", vram = 0x809EE4D0 },
+]
+
+[[section]]
+name = "..ovl_En_Osn"
+rom = 0x00F36250
+vram = 0x80AD0830
+size = 0x2340
+
+symbols = [
+    # Renamed from sAnimationInfo
+    { name = "sHappyMaskSalesmanAnimationInfo", vram = 0x80AD22C0 },
+]

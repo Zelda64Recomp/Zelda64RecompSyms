@@ -10,6 +10,21 @@ symbols = [
 ]
 
 [[section]]
+name = "..ovl_kaleido_scope"
+rom = 0x00C90550
+vram = 0x808160A0
+size = 0x179B0
+
+symbols = [
+    { name = "sPauseZRCursorColorTimer", vram = 0x8082B9C8 },
+    { name = "sPauseZRCursorColorIndex", vram = 0x8082B9CC },
+    { name = "sPauseZRCursorRed", vram = 0x8082DA50 },
+    { name = "sPauseZRCursorGreen", vram = 0x8082DA52 },
+    { name = "sPauseZRCursorBlue", vram = 0x8082DA54 },
+    { name = "sPauseZRCursorAlpha", vram = 0x8082DA56 },
+]
+
+[[section]]
 name = "..ovl_En_Horse"
 rom = 0x00CF5950
 vram = 0x8087B730
@@ -38,6 +53,21 @@ size = 0x2490
 
 symbols = [
     { name = "D_809EE4D0", vram = 0x809EE4D0 },
+]
+
+[[section]]
+name = "..ovl_Dm_Char01"
+rom = 0x00F0DC60
+vram = 0x80AA81E0
+size = 0x2C40
+
+symbols = [
+    { name = "D_80AAAAB8", vram = 0x80AAAAB8 },
+    { name = "D_80AAAABC", vram = 0x80AAAABC },
+    { name = "D_80AAAAC0", vram = 0x80AAAAC0 },
+    { name = "D_80AAAAC4", vram = 0x80AAAAC4 },
+    { name = "D_80AAAAC8", vram = 0x80AAAAC8 },
+    { name = "D_80AAAACC", vram = 0x80AAAACC },
 ]
 
 [[section]]

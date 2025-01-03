@@ -14,6 +14,6 @@ The syms.toml file contains function definitions that the recompiler uses to fin
 
 Mods can submodule/subrepo this repo (or just copy the files from it) to provide to the mod builder (TODO link the mod builder when it's available). Commits of this repo are tied to commits of the decompilation project, so mods should use the correspoding decompilation commit in order to guarantee consistency between headers and symbol names.
 
-The commit of the decompilation that these symbols were generated from can be found [here](https://github.com/zeldaret/mm/tree/23beee0717364de43ca9a82957cc910cf818de90).
+The commit of the decompilation that these symbols were generated from can be found [here](https://github.com/zeldaret/mm/tree/385c45ad483502a03c6f93b81e5b1ed5e08281d0).
 
 Mods do not have to update these files to support newer versions of the recompilation project, as symbol names are discarded in the process of building a mod.
